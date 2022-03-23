@@ -1,0 +1,15 @@
+body {
+    background-color: #000000;
+    margin: 0 10%;
+    font-family: sans-serif;
+    color:#00d9ff;
+  }
+h1 {
+    color: #ff00fb;
+    text-align: center;
+    font-family: serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    border-bottom: 2px solid #ffffff;
+    margin-top: 30px;
+}
