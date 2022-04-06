@@ -1,15 +1,100 @@
 body {
     background-color: #000000;
-    margin: 0 10%;
+    margin: 0 5%;
     font-family: sans-serif;
+    font-weight: bold;
     color:#00d9ff;
   }
+
+  .container > * {
+    padding: 10px;
+  }
+  
+  #content {
+    height: 400px;
+    overflow: auto;
+  }
+
+  /*
+  .container {
+    font-family: sans-serif;
+    display: grid;
+    grid-template-columns: 1fr 60px;
+  }
+  */
+
+  #logo {
+    width: 50%;
+    padding-bottom: 10px;
+  }
+
+  #top {
+    width: 60%;
+    padding-right: 10px;
+    float: left;
+  }
+
+  #indexPic {
+    width: 40%;
+    /*float: left;*/
+    padding-right: 10px;
+  }
+
+  #side {
+    width: 30%;
+    /*float: right;*/
+    padding-left: 10px;
+  }
+
+  nav {
+    display: inline-block;
+    border-top: 2px solid #adfa82;
+    border-bottom: 2px solid #adfa82;
+    display: flex;
+    color:#adfa82;
+    font-weight: bolder;
+    justify-content: space-around;
+    text-decoration: none;
+    color:#adfa82;
+  }
+
+  a {
+    text-decoration: none;
+    color:#adfa82;
+  }
+
 h1 {
-    color: #ff00fb;
-    text-align: center;
-    font-family: serif;
-    font-weight: normal;
+    background: -webkit-linear-gradient(#00d9ff, #ff00fb);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-size: 250%;
+    text-align: left;
+    font-family: sans-serif;
+    font-weight: bold;
     text-transform: uppercase;
-    border-bottom: 2px solid #ffffff;
-    margin-top: 30px;
+    margin-top: 20px;
 }
+
+
+
+fieldset {
+  display: inline-block;
+  margin-bottom: 10px;
+  border: 2px solid #adfa82;
+}
+
+input {
+  margin: 5px;
+}
+
+#serviceImg {
+  padding-top: 50px;
+  width: 50%;
+  float: right;
+}
+
+/*footer {
+
+}*/
+
