@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Service Request</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <body>
+        <div class="container">
+        <header>
+          <img id="logo" src="images/logo4.png">
+
+          <nav>
+            <a href="bikes.html">Our Bikes</a>
+            <a href="shop.html">Bike Shop</a>
+            <a href="news.html">News Feed</a>
+            <a href="about.html">About Us</a>
+          </nav>
+        </header>
+      
+        <div id="content">
+        <img id="serviceImg" src="images/pexels-alexander-dummer-132695.jpg">
+        <h1>Service Request Form</h1>
+    
+
+        <p>We get it, sometimes you're stuck between a rock and a hard place. Literally! Don't worry, all of our bikes are backed up by our awesome service that includes everything from general maintenance to replacing parts.</p>
+        <p>This is another test. Don't worry, it is only a test.</p>
+
+        <form>
+            <fieldset>
+                <legend>Request Service</legend>
+                <ul>
+                    <li><label for="form-name">Name:</label> <input type="text" name="customername" id="form-name"></li>
+                    <li><label for="form-tel">Contact Number:</label> <input type="tel" name="telephone" id="form-tel"></li>
+                    <li><label for="form-email">Email: <input type="email" name="email" id="form-email"></label></li>
+                    <li>Details of Service:<br>
+                    <textarea name="details" rows="4" cols="60" maxlength="400" id="form-story" placeholder="No more than 400 characters long"></textarea></li>
+                </ul>
+                
+                <p>Are You A Member?</p>
+                <input type="radio" name="member" id="yes">
+                <label for="yes">Yes</label>
+                <input type="radio" name="member" id="no">
+                <label for="no">No</label>
+
+                <p>What extra service would you like added?</p>
+                <label><input type="checkbox" name="extra" value="cleaning">Detailing</label>
+                <label><input type="checkbox" name="extra" value="brake">Brake Tune-up</label>
+                <label><input type="checkbox" name="extra" value="handlebar">Handlebar Alignment</label>
+
+                <p>How many bikes to service: 
+                    <select name="numberbikes" size="1">
+                      <option>1</option>
+                      <option>2</option>
+                      <option>3</option>
+                    </select>
+                </p>
+
+                <input type="submit" value="Submit Request">
+
+            </fieldset>
+        </form>
+        </div>
+        <footer>
+            Vicious Cycles
+            123 Adventure Way
+            Dreamville, NC 27000
+            (919) 123-4567)
+            <a href="index.html">Home</a>
+        </footer>
+    </div>
+</body>
+</html>
